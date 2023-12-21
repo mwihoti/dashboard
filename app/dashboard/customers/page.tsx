@@ -3,3 +3,7 @@ export default function Customers(){
         <p>Customers</p>
     )
 }
+
+export const metadata: Metadata = {
+    title: 'customers',
+  };

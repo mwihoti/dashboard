@@ -15,3 +15,7 @@ export default function LoginPage() {
     </main>
   );
 }
+
+export const metadata: Metadata = {
+    title: 'Login',
+  };
