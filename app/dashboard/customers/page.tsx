@@ -1,6 +1,14 @@
-export default function Customers(){
+import {fetchCustomers} from '../../lib/data';
+import { customers } from '@/app/lib/placeholder-data';
+
+
+export default async  function Customers(){
+    
     return (
-        <p>Customers</p>
+        <main>
+<customers />
+
+        </main>
     )
 }
 
